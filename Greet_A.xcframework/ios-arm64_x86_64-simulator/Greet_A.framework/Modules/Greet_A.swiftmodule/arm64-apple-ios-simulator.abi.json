@@ -1,0 +1,199 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Greet_A",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Greet_A",
+        "printedName": "Greet_A",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "greetUserGoodEvening",
+            "printedName": "greetUserGoodEvening(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Greet_AAAC20greetUserGoodEvening4nameySS_tF",
+            "mangledName": "$s7Greet_AAAC20greetUserGoodEvening4nameySS_tF",
+            "moduleName": "Greet_A",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "greetUserGoodMorning",
+            "printedName": "greetUserGoodMorning(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Greet_AAAC20greetUserGoodMorning4nameySS_tF",
+            "mangledName": "$s7Greet_AAAC20greetUserGoodMorning4nameySS_tF",
+            "moduleName": "Greet_A",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Greet_A",
+                "printedName": "Greet_A.Greet_A",
+                "usr": "c:@M@Greet_A@objc(cs)Greet_A"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Greet_A@objc(cs)Greet_A(im)init",
+            "mangledName": "$s7Greet_AAACABycfc",
+            "moduleName": "Greet_A",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Greet_A@objc(cs)Greet_A",
+        "mangledName": "$s7Greet_AAAC",
+        "moduleName": "Greet_A",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sapphire\/Desktop\/Cocoapods\/Greet_A\/Greet_A\/Greet_A.swift",
+      "kind": "StringLiteral",
+      "offset": 201,
+      "length": 28,
+      "value": "\"Good Evening \""
+    },
+    {
+      "filePath": "\/Users\/sapphire\/Desktop\/Cocoapods\/Greet_A\/Greet_A\/Greet_A.swift",
+      "kind": "StringLiteral",
+      "offset": 222,
+      "length": 5,
+      "value": "\" !!!!!\""
+    },
+    {
+      "filePath": "\/Users\/sapphire\/Desktop\/Cocoapods\/Greet_A\/Greet_A\/Greet_A.swift",
+      "kind": "StringLiteral",
+      "offset": 309,
+      "length": 28,
+      "value": "\"Good Morning \""
+    },
+    {
+      "filePath": "\/Users\/sapphire\/Desktop\/Cocoapods\/Greet_A\/Greet_A\/Greet_A.swift",
+      "kind": "StringLiteral",
+      "offset": 330,
+      "length": 5,
+      "value": "\" !!!!!\""
+    }
+  ]
+}
